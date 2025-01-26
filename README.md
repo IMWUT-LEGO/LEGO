@@ -10,6 +10,7 @@ Project structure:
 * RQ1: evaluation of RQ1
 * RQ2: evaluation of RQ2
 * RQ3: evaluation of RQ3
+* CaseStudy: generality validation
 
 
 ## DECG 
@@ -121,3 +122,9 @@ The results are as follows:
 
 **RQ3/deviceComponent** presents several examples of device components synthesized using LEGO for KubeEdge.
 
+### Case Study
+
+We also use Domoticz as an another platform to further validate the generality of LEGO.
+We designed and constructed a device component code template tailored for Domoticz following the component model. We then used LEGO to identify and extract device properties and APIs, filling them into the template to synthesize device components for Domoticz. 
+
+**CaseStudy/deviceComponent** presents several examples of device components synthesized using LEGO for Domoticz.
